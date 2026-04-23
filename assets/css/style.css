@@ -1,0 +1,2342 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.Navs {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+     
+}
+.Navs_Data {
+     
+    width: 90%;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+}
+.Navs_Data .nav ul {
+     
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.Navs_Data .nav{
+     
+}
+.Navs_Data .nav ul li{
+     
+}
+
+.Navs_Data .nav ul a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+     
+}
+
+.Navs_Data .logo {
+    width: 218px;
+    height: 129px;    
+     
+}
+.Navs_Data .logo img{
+     
+}
+
+/* ################ */
+
+.Hero-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.377)) , url(../images/images/H.png);
+    background-size: cover;
+}
+
+.Hero-section .Hero_Data_Info {
+     
+    width: 100%;
+    height: 650px;
+    align-content: end;
+    margin-left: 83px;
+}
+.Hero_Data_Info .Hero_Title{
+    width: 60%;
+    height: 158px;
+     
+    margin-bottom: 30px;
+}
+.Hero_Data_Info .Hero_Title h1{
+    color: #ffff;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: bold;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-family: bold;
+     
+}
+.Hero_Data_Info .Hero_Prg{
+    width: 925px;
+    height: 90px;
+    margin-bottom: 45px;
+     
+}
+.Hero_Data_Info .Hero_Prg p{
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 500;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    line-height: 40px;
+     font-family: sbold;
+}
+
+.Hero_Data_Info .Hero_All_Click{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Hero_Data_Info .Hero_All_Click div{
+    width: 230px;
+    height: 48px;
+    border: #bbbbbb47 solid .3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;     
+}
+.Hero_Data_Info .Hero_All_Click h3{
+    font-size: 17px;
+    font-weight: 700;
+    font-style: bold;
+}
+.Hero_Data_Info .Hero_All_Click  a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: reg;
+    color: #ffff;
+     
+}
+.Hero_Data_Info .Hero_All_Click div img {
+    width: 47px;
+    height: 46px;
+    position: relative;
+    right: 13px;
+     
+}
+
+/*############## Hero End #############*/
+.About_Us{
+    width: 100%;
+    margin: 70px auto;
+}
+.About_Us .About_Data{
+    width: 85%;
+    height: 600px;  
+    margin: 0 auto;
+}
+.About_Us .About_Data .About_Title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.About_Us .About_Data .About_Title h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: sbold;
+    color: #ffff;
+}
+.About_Data .About_Sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+.About_Data .About_Sec p{
+    color: #ffff;
+    width: 607px;
+    height: 386px;
+    font-size: 22px;
+    font-family: reg;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 40px;
+}
+
+.About_Data .About_Image img{
+    width: 600px;
+    height: auto;
+     
+}
+.About_Data .About_Sec .About_Click div{
+    display: flex;
+    width: 180px;
+    height: 48px;
+    border: #bbbbbb47 solid .3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.About_Data .About_Sec .About_Click .About_Click_Up{
+    width: 180px ;
+}
+.About_Data .About_Sec .About_Click h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+}
+.About_Data .About_Sec .About_Click a{
+    text-decoration: none;
+    color: #ffff;
+}
+.About_Data .About_Sec .About_Click img{
+    width: 47px;
+    height: 46px;
+    position: relative;
+    right: 13px;
+}
+.Choose_Us{
+    width: 100%;
+    margin: 80px auto;
+}
+.Choose_Us .Choose_Data{
+    width: 85%;
+    margin: 0 auto;
+}
+.Choose_Us .Choose_Data .Choose_Title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+     
+}
+.Choose_Us .Choose_Data .Choose_Title h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+     
+}
+.Choose_Us .Choose_Data .Choose_Info{
+    width: 90%;
+    height: 571px;
+    background-image: url(../images/images/Rectangle\ 396.png);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Choose_Us .Choose_Data .Choose_Info div{
+     
+}
+.Choose_Us .Choose_Data .Choose_Info a{
+    list-style: none; 
+    font-size: 22px;
+
+}
+.Choose_Us .Choose_Data .Choose_Info .All_Choosea{
+    padding-top: 10px;
+    padding-left: 50px;
+    border-left: #bebebe69 solid 1px;
+    height: 558px;
+    align-content: center;
+}
+.Choose_Us .Choose_Data .Choose_Info p , a {
+    color: #ffff;
+     
+    text-decoration: none;
+}
+.Choose_Us .Choose_Data .Choose_Info p{
+    width: 500px;
+    font-size:  24px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 40px;
+
+}
+.Choose_Us .Choose_Data .Choose_Info ul{
+     
+}
+.Choose_Us .Choose_Data .Choose_Info ul li{
+    margin-bottom: 60px;
+     
+}
+
+.Studies{
+    width: 100%;
+    height: 650px;
+}
+.Studies .Studies_Data{
+    width: 85%;
+    margin: 0 auto;
+}
+.Studies .Studies_Data .Studies_Title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+     
+}
+.Studies .Studies_Data .Studies_Title h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+     
+}
+.Studies .Studies_Data .Studies_All_Group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+     
+}
+.Studies .Studies_Data .Studies_All_Group div{
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+}
+.Studies .Studies_Data .Studies_All_Group img{
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+
+.Studies_All_Group .Case1{
+    width: 305px;
+    height: 485px;
+    background: linear-gradient(rgba(0, 0, 0, 0.515)) , url(../images/images/Rectangle\ 385.png);
+    background-position:right;
+    background-size:cover;
+    align-content: end;
+}
+.Studies_All_Group .Case1 h2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    padding-bottom: 20px;
+    padding-left: 25px;
+     
+}
+.Studies_All_Group .Case1 p{
+    width: 250px;
+    height: 77px;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 25px;
+     
+}
+.Studies_All_Group .Case2{
+    width: 305px;
+    height: 485px;
+    background: linear-gradient(rgba(0, 0, 0, 0.515)) , url(../images/images/Rectangle\ 386.png);
+    background-position:right;
+    background-size:cover;
+    align-content: end;
+}
+.Studies_All_Group .Case2 h2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    padding-bottom: 20px;
+    padding-left: 25px;
+     
+}
+.Studies_All_Group .Case2 p{
+    width: 250px;
+    height: 77px;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 25px;
+     
+}
+.Studies_All_Group .Case3{
+    width: 305px;
+    height: 485px;
+    background: linear-gradient(rgba(0, 0, 0, 0.515)) , url(../images/images/Rectangle\ 387.png);
+    background-position:right;
+    background-size:cover;
+    align-content: end;
+}
+.Studies_All_Group .Case3 h2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    padding-bottom: 20px;
+    padding-left: 25px;
+     
+}
+.Studies_All_Group .Case3 p{
+    width: 250px;
+    height: 77px;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 25px;
+    padding-left: 25px;
+     
+}
+.Studies_All_Group .Case4{
+    width: 305px;
+    height: 485px;
+    background: linear-gradient(rgba(0, 0, 0, 0.515)) , url(../images/images/Rectangle\ 388.png);
+    background-position:right;
+    background-size:cover;
+    align-content: end;
+}
+.Studies_All_Group .Case4 h2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    padding-bottom: 20px;
+    padding-left: 25px;
+     
+}
+.Studies_All_Group .Case4 p{
+    width: 250px;
+    height: 77px;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 25px;
+     
+}
+
+/* ############################# */
+.Services{
+    width: 100%;
+}
+.Services .Services_Data{
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+}
+.Services_Data .Services_Title{
+    width: 100%;
+    height: 80px;
+    margin:50px auto;
+}
+.Services_Data .Services_Title h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+     
+    text-align: center;
+}
+.Services_Data .Studies_All_Group{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+.Services_Data .Studies_All_Group img{
+    width: 392px;
+    height: 346px;
+}
+.Services_Data .Studies_All_Group .Studies_Prag{
+    width: 340px;
+    height: 105px;
+    background-color: #3B3838;
+    position: relative;
+    bottom: 60px;
+    align-content: center;
+}
+.Services_Data .Studies_All_Group .Studies_Prag p{
+    width: 287px;
+    height: 72px;
+    color: #ffff;
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 700;  
+    padding-left: 25px;
+    line-height: 35px;
+    word-spacing: 1px;
+}
+.Services .Services_Data .St_Click {
+    display: flex;
+    width: 201px;
+    height: 48px;
+    border: #bbbbbb47 solid .3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+.Services .Services_Data .St_Click_Up {
+    width: 200px;
+    margin: 0 auto;
+}
+.Services .Services_Data .St_Click h3{
+    font-size: 22px;
+    font-weight: 700;
+    font-style: bold;
+}
+.Services .Services_Data .St_Click a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+     
+}
+.Services .Services_Data .St_Click img{
+    width: 47px;
+    height: 46px;
+    position: relative;
+    right: 13px;
+}
+.Articles{
+    width: 100%;
+    height: 750px;
+    margin: 100px auto;
+}
+.Articles .Articles_Data{
+    width: 85%;
+    margin: 0 auto;
+}
+.Articles_Data .Articles_Title{
+    width: 100%;
+    height: 80px;
+    margin:50px auto;
+    align-content: center;
+}
+.Articles_Data .Articles_Title h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+    text-align: center;
+    line-height: 35px;
+    word-spacing: 3px;
+}
+.Articles .Articles_Data .Articles_All_Group{
+    width: 80%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+.Articles_All_Group .Articles_All_Men{
+    color: #ffff;
+}
+.Articles_All_Group .Articles_All_Men .Small_Artical{
+    width: 320px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: #636363 solid 1px;
+}
+.Articles_All_Men .Small_Artical .Artical_Pic{
+    width: 112px;
+    height: 72px;
+}
+
+.Articles_All_Group .Articles_All_Men .Small_Artical .Article_History{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 30px;
+}
+.Articles_All_Group .Articles_All_Men h5{
+    font-size: 12px;
+}
+.Articles .Articles_Data .Articles_All_Group .Latest {
+    width:392px;
+    height: 258px;
+}
+
+.Articles .Articles_Data .Articles_All_Group .Article_Info div{
+    height: 30px;
+    color: #ffff;
+    display: flex;
+    gap: 20px;
+        margin-top: 10px;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info div img{
+    width: 26px;
+    height: 26px;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info div h5{
+    font-size: 20px;
+    font-weight: 400;
+        height: 30px;
+    align-content: center;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+    margin: 20px auto;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info p{
+    font-size: 18px;
+    font-weight:400 ;
+    font-style: medium;
+    color: #636363;
+    margin-bottom: 20px;
+    line-height: 25px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.Artic_Click_Up {
+    width: 230px;
+    margin: 0 auto;
+}
+
+.Articles .Articles_Data .Articles_All_Group .Article_Info a{
+    font-size: 20px;
+    font-weight:600 ;
+    font-style: medium;
+    color: #E9BC80;
+}
+.Articles .Articles_Data .Artic_Click {
+    display: flex;
+    width: 201px;
+    height: 48px;
+    border: #bbbbbb47 solid .3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+.Articles .Articles_Data .Artic_Click a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+     
+}
+.Articles .Articles_Data .Artic_Click h3{
+        font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+}
+.Articles .Articles_Data .Artic_Click img{
+    width: 47px;
+    height: 46px;
+    position: relative;
+    right: 13px;
+}
+.Start_Your_Financial{
+    width: 100%;
+    height: 542px;
+    margin-bottom: 100px;
+    background-image: url(../images/images/Rectangle\ 33389.png);
+    background-size: cover;
+}
+.Start_Your_Financial .Start_Your_Financial_Data{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+    align-content: center;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info{
+    width: 700px; 
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info h2{
+    width: 600px;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+    padding: 20px;
+    padding-top: 50px;
+    line-height: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info p{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: bold;
+    color: #ffff;
+    padding: 20px;
+    line-height: 25px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click {
+    width: 201px;
+    height: 48px;
+    border: #bbbbbb47 solid .3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 35px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click h3{
+     font-size: 20px;
+     font-weight: 700;
+     font-style: bold;
+}
+.Start_Your_Financial_Data  .Start_Your_Financial_Info .Start_Click img{
+    width: 47px;
+    height: 46px;
+    position: relative;
+    right: 13px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click_Up {
+    width: 160px;
+}
+
+/* ########### Footer ########### */
+footer{
+    width: 100%;
+    height: 430px;
+    background: url(../images/images/footer.png);
+    background-size: cover;
+}
+footer .Footer_Data{
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.Footer_Data .Footer_Info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: baseline;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    border-bottom: #6363639d solid .5px;
+    margin-bottom: 30px;
+}
+.Footer_Data .Footer_Info .Left{
+    align-self: stretch;
+    position: relative;
+    bottom: 30px;
+}
+.Footer_Data .Footer_Info .Left img{
+    width: 285px; 
+}
+.Footer_Data .Footer_Info .Left p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    width: 285px;
+    height: 96px;
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+.Footer_Data .Footer_Info .Left2 div{
+    display: flex;
+    gap: 15px;
+    margin-bottom: -19px;
+}
+.Footer_Data .Footer_Info .Left2 img{
+    width: 24.46px;
+    height: 24px;
+    margin-bottom: 30px;    
+}
+
+.Footer_Data .Footer_Info .Left2{
+    align-content: center;
+    padding-left: 20px;
+     
+}
+.Footer_Data .Footer_Info .Left2 h3{
+    height: 30px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    padding-top: 10px;
+    margin-bottom: 35px;
+    align-content: end;
+}
+
+.Footer_Data .Footer_Info .Right2{
+    width: 199px;
+    align-content: end;
+    padding-left: 20px;
+}
+.Footer_Data .Footer_Info .Right2 h3{
+    width: 199px;
+    height: 30px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    align-content: end;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.Footer_Data .Footer_Info .Right2 ul{
+     padding: 0;
+}
+.Footer_Data .Footer_Info .Right2 ul li{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: bold;
+    color: #ffff;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.Footer_Data .Footer_Info .Right{
+     
+}
+.Footer_Data .Footer_Info .Right h3{
+    height: 30px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 10px; 
+}
+.Footer_Data .Footer_Info .Right p{
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    width: 285px;
+    height: 50px;
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.Footer_Data .Footer_Info .Right .Right_SerCh{
+    width: 325.17px;
+    height: 50px;
+    display: flex;
+    border: #ffff solid 2px;
+    margin-bottom: 30px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.Footer_Data .Footer_Info .Right .Right_SerCh input{
+    width: 259.94px;
+    height: 50px;
+    background-color: #636363;
+    color: #ffff;
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.Footer_Data .Footer_Info .Right .Right_SerCh img{
+    width: 66.26px;
+    height: 50px;
+}
+.Footer_Data .Footer_Info .Right div a img{
+    width: 20px;
+}
+.Footer_Data .Footer_Info .Right .All_Contact_Icons{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_Data .Footer_Info .Right .All_Contact_Icons img{
+    width: 32px;
+    height: 32px;
+}
+.Footer_Data  .CopyRight{
+    padding-bottom: 30px;
+}
+.Footer_Data  .CopyRight p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+}
+.Navs_Mobile{
+    display: none;
+}
+/* ####################################################### */
+/* ################### Strat Mobile Version ############## */
+/* ####################################################### */
+@media(max-width:768px) {
+    .Navs{
+        display: none;
+    }
+.Navs_Mobile{
+    display: flex !important;
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+}
+.Navs_Mobile .Navs_Data  .Side_M {
+    position: relative;
+    bottom: 10px;
+}
+.Navs_Mobile .Navs_Data  .Side_M img{
+    width: 50px;
+    height: 50px;
+}
+.Hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.377)) , url(../images/images/H.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.Hero-section .Hero_Data_Info {
+   margin: 0;
+   align-content: end;
+}
+.Hero_Data_Info .Hero_Title {
+    width: auto;
+    margin: 0;
+    padding-left: 20px;
+}
+.Hero_Data_Info .Hero_Title h1 {
+    font-size: 31px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.Hero_Data_Info .Hero_Prg {
+    width: auto;
+}
+.Hero_Data_Info .Hero_Prg p {
+    font-size: 16px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-left: 20px;
+}
+.Hero_Data_Info .Hero_All_Click {
+    width: 95%;
+    padding-left: 25px;
+    margin-top: 104px;
+}
+.Hero_Data_Info .Hero_All_Click div {
+    width: 165px;
+    height: 45px;
+    gap: 10;
+}
+.Hero_Data_Info .Hero_All_Click div img {
+    width: 45px;
+    height: 46px;
+}
+.Hero_Data_Info .Hero_All_Click a {
+    font-size: 10px;
+}
+.Hero_Data_Info .Hero_All_Click h3{
+    font-size: 12px;
+    height: 40px;
+    align-content: center;
+    gap: px;
+}
+.About_Us {
+    width: auto;
+    padding-bottom: 0px;
+}
+.About_Us .About_Data {
+     height: 880px;
+}
+.About_Us .About_Data .About_Title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: bold;
+}
+.About_Data .About_Sec {
+   display: block;
+}
+.About_Data .About_Image{
+    margin: 0 auto;
+    width: 90%;
+}
+.About_Data .About_Image img {
+    width: 330px;
+}
+.About_Click {
+    width: 90%;
+    margin: 0 auto;
+}
+.About_Data .About_Sec p {
+    width: auto;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.About_Data .About_Sec .About_Click .About_Click_Up {
+    width: 200px;
+    margin: 0 auto;
+}
+.About_Data .About_Sec .About_Click .About_Click_Up div{
+    width: 200px;
+}
+.About_Data .About_Sec .About_Click .About_Click_Up h3{
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.Choose_Us {
+    width: auto;
+    padding-top: 40px;
+    
+}
+.Choose_Us .Choose_Data {
+    width: 95%;
+}
+.Choose_Us .Choose_Data .Choose_Title h2 {
+    font-size: 28px;
+}
+.Choose_Us .Choose_Data .Choose_Info ul li {
+    margin-bottom: 25px;
+}
+
+.Choose_Us .Choose_Data .Choose_Info {
+    width: 100%;
+    height: 632px;
+    display: block;
+    padding-top: 40px;
+    background-image: url(../images/images/Rectangle\ 396.png);
+    background-position: center;
+    border: none;
+    border-radius:4px;
+    align-content: center;
+}
+.Choose_Us .Choose_Data .Choose_Info p{
+    padding-left:10px;
+    width: auto;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.Choose_Us .Choose_Data .Choose_Info .All_Choosea {
+        padding-left: 0;
+        border: none;
+        height: auto;
+}
+.Choose_Us .Choose_Data .Choose_Info ul {
+    padding-left: 10px;
+}
+    .Choose_Us .Choose_Data .Choose_Info ul li {
+        margin-bottom: 25px;
+        letter-spacing: 5px;
+        word-spacing: 4px;
+        line-height: 22px;
+}
+.Studies {
+    width: 100%;
+    height: 2175px;
+}
+.Studies .Studies_Data {
+    width: 90%;
+    margin: 0 auto;
+}
+.Studies .Studies_Data .Studies_Title h2 {
+    font-size: 28px;
+}
+.Studies .Studies_Data .Studies_All_Group {
+    width: 90%;
+    height: 700px;
+    display: block;
+    margin: 50px auto;    
+}
+.Services_Data .Studies_All_Group .Studies_Prag p {
+        padding-top: 5px;
+}
+.Studies_All_Group .Case1{
+    margin-bottom: 30px;
+}
+.Studies_All_Group .Case2{
+    margin-bottom: 30px;
+}
+
+.Studies_All_Group .Case3{
+    margin-bottom: 30px;
+}
+
+
+.Studies_All_Group .Case1 h2 {
+    color: #ffff;
+    font-size: 22px;
+}
+.Studies_All_Group .Case2 h2 {
+    color: #ffff;
+    font-size: 22px;
+}
+.Studies_All_Group .Case3 h2 {
+    color: #ffff;
+    font-size: 22px;
+}
+.Studies_All_Group .Case4 h2 {
+    color: #ffff;
+    font-size: 22px;
+    
+}
+/* ####################################### */
+.Services{
+    width: 100%;
+    margin-top: 90px;
+}
+.Services .Services_Data{
+    width: 90%;
+    margin: 0 auto;
+    height: 1210px;
+}
+.Services_Data .Studies_All_Group {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.Services_Data .Studies_All_Group div{
+    width: 100%;
+}
+.Services_Data .Studies_All_Group img{
+    width: 100%;
+    height: auto;
+}
+.Services_Data .Studies_All_Group .Studies_Prag {
+    width: 340px;
+    height: 90px;
+}
+.Services_Data .Studies_All_Group .Studies_Prag p {
+    width: 287px;
+    height: 72px;
+    font-size: 20px;
+}
+.Articles{
+    height: auto;
+}
+.Articles .Articles_Data {
+    width: 85%;
+    height: auto;
+}
+.Article_Info {
+    height: 466px;
+}
+.Articles_Data .Articles_Title h2 {
+    font-size: 28px;
+}
+.Articles .Articles_Data .Articles_All_Group {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.Articles .Articles_Data .Articles_All_Group .Latest {
+    width: 330px;
+    height: auto;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info div h5 {
+    font-size: 14px;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info h3 {
+    font-size: 18px;
+}
+.Articles .Articles_Data .Articles_All_Group .Article_Info p {
+    font-size: 16px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+}
+.Articles .Articles_Data .Artic_Click{
+    width: 150px;
+        gap: 5px;
+}
+.Artic_Click_Up {
+    width: 150px;
+    margin: 0 auto;
+}
+.Articles .Articles_Data .Artic_Click h3 {
+    font-size: 15px;
+}
+.Start_Your_Financial {
+    height: 391px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info h2 {
+        width: auto;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 36px;
+        word-spacing: -2px;
+        letter-spacing: 3px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info p {
+    width: auto;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click_Up {
+    width: 160px;
+    margin: 0 auto;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click {
+        width: 160px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click h3 {
+    font-size: 15px;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click {
+        margin: 0 auto;
+        gap: 0;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info{
+        width: auto;
+        height: 100%;
+        align-content: center;
+}
+.Start_Your_Financial .Start_Your_Financial_Data {
+    width: 90%;
+}
+.Start_Your_Financial {
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/images/Rectangle 33389.png);
+    background-size: cover;
+    background-position: right;
+}
+.Start_Your_Financial_Data .Start_Your_Financial_Info .Start_Click {
+    margin: 0 auto;
+}
+footer {
+    width: 100%;
+    height: 800px;
+    background: url(../images/images/footer.png);
+    background-size: cover;
+    background-position:right;
+}
+.Footer_Data .Footer_Info {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-bottom: #6363639d solid .5px;
+}
+.Footer_Data .Footer_Info .Left {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.Footer_Data .Footer_Info .Left2 {
+     
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.Footer_Data .Footer_Info .Left2 h3{
+    padding: 0;
+}
+.Footer_Data .Footer_Info .Right2 {
+     
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.Footer_Data .Footer_Info .Right{
+     
+    width: 90%;
+    margin: 0 auto;
+    
+    margin-bottom: 30px;
+}
+
+.Footer_Data .CopyRight {
+    padding: 40px 0;
+}
+}
+
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+/* ########################################################     Home End     ########################################################## */
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+@media(max-width:768px) {
+.Company_Overview .Company_Overview_Data h2 {
+    font-size: 30px;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+}
+.Company_Overview .Company_Overview_Data {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.Company_Overview {
+    padding-top: 80px;
+    height: 2395px;
+}
+.Company_Overview_Data .Company_Info {
+  display: block !important;
+}
+.Company_Overview_Data .Company_Info p {
+    width: auto;
+    height: auto !important;
+    color: #ffff;
+    font-style: bold;
+    font-size: 22px;
+    align-content: center;
+    line-height: 29px;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 20px;
+}
+.OUR_MISSION_VISSION {
+    width: 100%;
+    height: 950px;
+}
+.OUR_MISSION_VISSION .VISSION_Data {
+    height: 100%;
+}
+.VISSION_Data .All_Vission {
+    display: block;
+    height: 760px;
+}
+.VISSION_Data .All_Vission .Mission {
+    width: auto;
+    height: auto;
+}
+.VISSION_Data .All_Vission .Mission .Mission_Title {
+    align-items: end;
+    gap: 20px;
+    justify-content: center;
+}
+.VISSION_Data .All_Vission .Mission p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+}
+/* # */
+.VISSION_Data .All_Vission .Vission {
+    width: auto;
+    height: auto;
+}
+
+.VISSION_Data .All_Vission .Vission .Vission_Title {
+    align-items: end;
+    gap: 20px;
+    justify-content: center;
+}
+
+}
+
+.Page_Title{
+    width: 100%;
+    height: 450px;
+    background:url(../images/images/Rectangle\ 382.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Page_Title h1{
+    width: 100%;
+    color: #ffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 41%);
+  
+}
+.Company_Overview{
+    width: 100%;
+    height: 990px;
+    background-color: black;
+    padding-top: 80px;
+}
+.Company_Overview .Company_Overview_Data{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.Company_Overview .Company_Overview_Data h2{
+    color: #ffff;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+.Company_Overview_Data  .Company_Info{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+.Company_Overview_Data  .Company_Info img{
+    width: 323.11px;
+    height: 426.4px;
+}
+.Company_Overview_Data  .Company_Info p{
+    width: 689px;
+    height: 362px;
+    color: #ffff;
+    font-style: bold;
+    font-size: 22px;
+    align-content: center;
+    line-height: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.OUR_MISSION_VISSION{
+    width: 100%;
+    height: 690px;
+     
+}
+.OUR_MISSION_VISSION .VISSION_Data{
+    width: 90%;
+    height: auto;
+    margin: 55px auto
+     
+}
+.VISSION_Data h2{
+    color: #ffff;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.VISSION_Data .All_Vission{
+    display: flex;
+    width: 100%;
+    height: 470px;
+    justify-content: space-evenly;
+}
+.VISSION_Data .All_Vission .Mission{
+    width: 574px;
+    height: 300px;
+    background-color: #1F1E1E;
+    border: #e9bc8024 solid .8px;
+    border-left: #E9BC80 solid 8px;
+}
+.VISSION_Data .All_Vission .Mission h3{
+    color: #ffff;
+    font-size: 24px;
+    font-style: bold;
+     
+}
+.VISSION_Data .All_Vission .Mission img{
+    width: 57px;
+    height: 57px;
+     
+}
+.VISSION_Data .All_Vission .Mission .Mission_Title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px 0;
+}
+.VISSION_Data .All_Vission .Mission p{
+    color: #ffff;
+    width: 517px;
+    height: 131px;
+    font-size: 18px;
+    align-content: end;
+     
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 32px;
+    padding: 20px 30px 0  ;
+}
+/* ##### */
+.VISSION_Data .All_Vission .Vission{
+    width: 574px;
+    height: 300px;
+    background-color: #1F1E1E;
+    border: #e9bc8024 solid .8px;
+    border-left: #5d4425 solid 8px;
+    position: relative;
+    top: 100px;
+}
+.VISSION_Data .All_Vission .Vission h3{
+    color: #ffff;
+    font-size: 24px;
+    font-style: bold;
+     
+}
+.VISSION_Data .All_Vission .Vission img{
+    width: 57px;
+    height: 57px;
+     
+}
+.VISSION_Data .All_Vission .Vission .Vission_Title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     
+    padding: 30px 30px 0;
+}
+.VISSION_Data .All_Vission .Vission p{
+    color: #ffff;
+    width: 517px;
+    height: 131px;
+    font-size: 18px;
+    align-content: end;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 32px;
+    padding: 20px 30px 0 ;
+}
+
+.Achievements{
+    width: 100%;
+    height: 304px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-image: url(../images/images/Rectangle\ 397.png);
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 50px;
+}
+.Achievements div img{
+    width: 15px;
+    height: 16px;
+    margin-bottom: 50px;
+}
+.Achievements div h2{
+    color: #ffff;
+    font-size: 70px;
+    font-style: bold;
+    margin-bottom: 50px;
+}
+.Achievements div h4{
+    color: #E9BC80;
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+.Achievements div p{
+    background-color: #E9BC80;
+    width: 78px;
+    height: 1px;
+    border-radius: 10px;
+}
+.Points_Of_Excellence{
+    margin-top: 75px;
+    width: 100%;
+    height: 410px;
+}
+.Points_Of_Excellence .Points_Data h2{
+    color: #ffff;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;   
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.Points_Of_Excellence .Points_Data .All_Points{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.Points_Of_Excellence .Points_Data .All_Points div img{
+    width: 59px;
+    height: 59px;
+    margin-bottom: 25px;
+}
+.Points_Of_Excellence .Points_Data .All_Points h3{
+    color: #ffff;
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 35px;
+}
+.Points_Of_Excellence .Points_Data .All_Points p{
+    width: 350px;
+    height: 66px;
+    color: #afafaf;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.Points_Of_Excellence .Points_Data .All_Points p::after{
+    content: '';
+    width: 212px;
+    height: 1px;
+    background-color: #E9BC80;
+    display: block;
+    margin-top: 35px;
+}
+
+.num_num{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    color: #fff;
+    background-color: #E9BC80;
+}
+.num_title h2{
+    width: 80%;
+    margin: 0 auto;
+    color: #ffff;
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.num_title .Box_num h4{
+    color: #ffff;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.num_title .Box_num p{
+    color: #b3b3b3;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+/* ########################################################     About Us End     ########################################################## */
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+.Important_Industries{
+    width: 100%;
+    margin: 120px auto;
+}
+.Important_Industries .Industries_Data{
+    width: 80%;
+}
+.Industries_Data h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+}
+.Industries_Data .Industries_Row div .Real{
+    height: 324px;
+    background-image: url(../images/images/Rectangle\ 402.png);
+    background-position: center;
+    background-size: cover;
+    align-content: end;
+    padding: 10px 30px ;
+}
+.Industries_Data .Industries_Row div .Investment{
+    height: 324px;
+    background-image: url(../images/images/Rectangle\ 403.png);
+    background-position: center;
+    background-size: cover;
+    align-content: end;
+    padding: 10px 30px ;
+}
+.Industries_Data .Industries_Row div p::after{
+    content: '';
+    width: 212px;
+    height: 1px;
+    background-color: #E9BC80;
+    display: block;
+    margin-top: 5px;
+}
+.Industries_Data .Industries_Row div .Technology{
+    height: 324px;
+    background-image: url(../images/images/Rectangle\ 404.png);
+    background-position: center;
+    background-size: cover;
+    align-content: end;
+    padding: 20px;
+}
+
+.Industries_Data .Industries_Row div .Financial{
+    height: 324px;
+    background-image: url(../images/images/Rectangle\ 405.png);
+    background-position: center;
+    background-size: cover;
+    align-content: end;
+    padding: 20px;
+}
+.Industries_Data .Industries_Row div p::after{
+    content: '';
+    width: 212px;
+    height: 1px;
+    background-color: #E9BC80;
+    display: block;
+    margin-top: 5px;
+}
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+/* ########################################################     Industries End     ########################################################## */
+/* #################################################################################################################################### */
+/* #################################################################################################################################### */
+
+.Overview{
+    width: 100%;
+    margin: 120px auto;
+}
+.Overview_Data .Overview_Image img{
+    width: 100%;
+}
+.Overview_Data .Overview_Info{
+    width: 100%;
+    margin-top: 70px;
+}
+.Overview_Data .Overview_Info h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.Overview_Data .Overview_Info p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+   letter-spacing: 3px;
+   word-spacing: 7px;
+   line-height: 35px;
+   padding-left: 3px;
+}   
+
+.CHALLENGES_SOLUTIONS{
+    width: 100%;
+    margin: 100px auto;
+}
+.CHALLENGES_SOLUTIONS{
+    width: 83.33333333%;
+}
+.CHALLENGES_SOLUTIONS_Data .CHALLENGES_Info h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+.CHALLENGES_SOLUTIONS_Data .CHALLENGES_Info ul li{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+.CHALLENGES_SOLUTIONS_Data .CHALLENGES_Image img{
+    width: 100%;
+} 
+
+.CHALLENGES_SOLUTIONS_Data .Solutions_Info h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.CHALLENGES_SOLUTIONS_Data .Solutions_Info ul li{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+.CHALLENGES_SOLUTIONS_Data .Solutions_Image img{
+    width: 100%;
+} 
+
+.Latest_News{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.Latest_News .Latest_News_Data{
+    margin-top: 100px;
+    /* width: 100%; */
+    height: 100%;
+}
+.Latest_News .Latest_News_Data .Article_Info{
+    margin-bottom: 30px;
+}
+.Latest_News .Latest_News_Data .Article_Info .Latest{
+    width: 100%;
+    margin-bottom:10px;
+}
+.Latest_News .Latest_News_Data .Article_Info h5{
+    color: #636363;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 10px;
+}
+.Latest_News .Latest_News_Data .Article_Info h3{
+    color: #ffff;
+    font-size: 20px;
+    font-style: bold;
+}
+.Latest_News .Latest_News_Data .Article_Info p{
+    color: #636363;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+.Latest_News .Latest_News_Data .Article_Info a{
+    color: #E9BC80;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+}
+.Articles_All_Men .Small_Artical{
+    width: 354px;
+    margin-bottom: 20px;
+    border-bottom:  #6363638b solid .5px;
+    padding-bottom: 12px;
+}
+.Articles_All_Men .Small_Artical h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.Articles_All_Men .Small_Artical h5{
+    color: #636363;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400px;
+    height: 30px;
+    align-content: end;
+}
+.Articles_All_Men .Small_Artical .History_Center {
+    align-content: end;
+}
+.Articles_All_Men .Small_Artical .History_Center h4{
+    font-size: 18px;
+    font-style: bold;
+    padding-top: 5px;
+}
+.Articles_All_Men .Small_Artical .Artical_Pic{
+    width: 112px;
+    margin-right: 5px;
+}
+.Articles_All_Men h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 15px;
+}
+.Articles_All_Men p::after{
+    content: '';
+    width: 175px;
+    height: 2px;
+    background-color: #E9BC80;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.Articles_All_Men .Artical_Small {
+    border: none;
+}
+
+@media (min-width:900px){
+    .Articles_All_Bage {
+        max-height: 1200px;
+    }
+}
+.Markets_Article{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Markets_Article .Markets_Article_Data{
+    width: 100%;
+}
+.Markets_Article_Data .Markets_Image{
+    width: 100%;
+    height: 499px;
+}
+.Markets_Article_Data .Markets_Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Markets_Article_Data h2{
+    color: #ffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+}
+.Markets_Article_Data h5{
+    color: #D9D9D9;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.Markets_Article .Hestory_Group img{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.Latest_Markets{
+    width: 100%;
+}
+.Latest_Markets_Data{
+    width: 80%;
+}
+.Latest_Markets_Data .All_Latest_Markets p{
+    color: #E0DEDE;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.Latest_Markets_Data .All_Latest_Markets h3{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom: 25px;
+}
+.All_Categories {
+    width: 500px;
+}
+.All_Categories .Categories_Data{
+    padding-left: 15px;
+}
+.All_Categories .Categories_Data div{
+    width: 118px;
+    height: 44px;
+    border: #ffffff55 solid 2px;
+    align-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.All_Categories .Categories_Data div h5{
+    font-size: 12px;
+    font-style: 400;
+    text-align: center;
+}
+.Popular_Tags{
+    width: 100%;
+    margin-top: 13px;
+}
+.Popular_Tags h2{
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.Popular_Tags .Popular_Data div {
+    border-bottom: #ffffff55 solid 2px;
+    margin-bottom:20px;
+}
+.Popular_Tags .Popular_Data div h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px ; 
+}
+.Popular_Tags .p::after{
+    content: '';
+    width: 175px;
+    height: 2px;
+    background-color: #ffffff55;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.Services_Sec{
+    width: 100%;
+    margin:100px auto;
+}
+.Services_Data_Ce .All_Group img{
+    width: 100%;
+}
+
+.Services_Data_Ce .All_Group .Studies_Prag{
+    width: 340px;
+    height: 105px;
+    background-color: #3B3838;
+    position: relative;
+    bottom: 60px;
+    align-content: center;
+}
+
+ .Services_Data_Ce .All_Group .Studies_Prag p {
+    width: 100%;
+    height: 72px;
+    color: #ffff;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    padding-left: 25px;
+    line-height: 35px;
+    word-spacing: 1px;
+}
+.Services_Data_Ce .Serv_Item .Studies_Prag{
+    width: 340px;
+    height: 105px;
+    background-color: #3B3838;
+    position: relative;
+    bottom: 60px;
+    align-content: center;
+}
+
+
+ .Services_Data_Ce .Serv_Item  .Studies_Prag p {
+    width: 100%;
+    height: 72px;
+    color: #ffff;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    padding-left: 25px;
+    line-height: 35px;
+    word-spacing: 1px;
+}
+
+.Serv_Item img{
+    width: 100%;
+}
+/* ####################### */
+
+.Worth_Individuals{
+    width: 100%;
+    margin: 120px auto;
+}
+.Worth_Individuals_Data .Worth_Individuals_Image img{
+    width: 100%;
+}
+.Worth_Individuals_Data .Worth_Individuals_Info{
+    width: 100%;
+    margin-top: 70px;
+}
+.Worth_Individuals_Data .Worth_Individuals_Info h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+.Worth_Individuals_Data .Worth_Individuals_Info p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+   letter-spacing: 3px;
+   word-spacing: 7px;
+   line-height: 35px;
+   padding-left: 3px;
+}   
+
+.Personal_Essay{
+    width: 100%;
+    margin: 100px auto;
+}
+
+.Personal_Essay_Data .Essay_Info p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+   letter-spacing: 3px;
+   word-spacing: 5px;
+   line-height: 42px;
+   padding-left: 3px;
+   text-align: justify;
+}
+.Personal_Essay_Data .Essay_Image img{
+    width: 100%;
+} 
+.Contact_Us{
+    width: 100%;
+    margin: 100px auto;
+}
+.contact-section {
+    width: 100%;
+    padding: 80px 0;
+}
+ 
+.section-title {
+    font-size: 31px;
+    font-weight: 700;
+    font-style: bold;
+    color: #ffff;
+    margin-bottom: 48px;
+    line-height: 1.2;
+}
+ 
+.form-wrapper {
+    max-width: 580px;
+}
+ 
+.field-group {
+    position: relative;
+    margin-bottom: 24px;
+}
+ 
+  
+.field-group .floating-label {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    background-color: #636363b4;
+    padding: 0 6px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #DEAD68;
+    font-weight: 700;
+    z-index: 1;
+    border-radius: 2px;
+    }
+ 
+.form-control-custom {
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 18px 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+    transition: border-color 0.25s, box-shadow 0.25s;
+}
+ 
+.form-control-custom::placeholder {
+    color: #ffffff5e;
+    font-style: italic;
+}
+ 
+.form-control-custom:focus {
+    border-color: #DEAD68;
+    box-shadow: 0 0 0 3px rgba(178, 94, 4, 0.12);
+}
+ 
+  
+.btn-send {
+    width: 100%;
+    padding: 18px;
+    background-color: #DEAD68;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.25s, transform 0.15s;
+    margin-top: 8px;
+}
+ 
+.btn-send:hover {
+    background: var(--gold-lt);
+    transform: translateY(-1px);
+}
+ 
+.btn-send:active {
+    transform: translateY(0);
+}
+ 
+  
+.map-wrapper {
+    width: 100%;
+    height: 420px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+ 
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    filter: grayscale(30%) invert(5%);
+}
+ /* ########## Responsive ############ */
+@media (max-width: 767px) {
+    .map-wrapper {
+    height: 280px;
+    margin-top: 48px;
+    }
+}
+
+.contact-bar {
+      background-color:#1f1e1e9f;
+      border-radius: 6px;
+      padding: 56px 32px;
+      width: 100%;
+   
+      max-width: 1080px;
+      margin-bottom: 70px;
+}
+ 
+   
+.info-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 32px;
+}
+ 
+ 
+.icon-box {
+      width: 62px;
+      height: 62px;
+      border: 1.5px solid var(--gold);
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      background: transparent;
+      transition: background 0.3s;
+          background-color: white;
+}
+  
+.info-label {
+      font-size: 20px;
+      font-weight: 700;
+      font-style:bold ;
+      color: #fff;
+      letter-spacing: 0.04em;
+      margin-bottom: 10px;
+}
+ 
+.gold-bar {
+      width: 30px;
+      height: 2px;
+      background-color: #DEAD68;
+      border-radius: 2px;
+      margin: 0 auto 16px;
+}
+ 
+.info-value {
+      font-size: 14px;
+      font-weight: 300;
+      color: #b4b2b2;
+      line-height: 1.6;
+      letter-spacing: 1px;
+}
+ 
+.info-value a {
+      color: #b4b2b2;
+      text-decoration: none;
+      transition: color 0.2s;
+}
+.info-value a:hover { color: #DEAD68 }
+a:hover {
+    color: #DEAD68;
+}
+ 
+    /* ── Mobile ─────────────────────────────────── */
+    @media (max-width: 767px) {
+      .contact-bar { padding: 40px 20px; }
+      .info-item + .info-item {
+        border-left: none;
+        border-top: 1px solid var(--divider);
+        padding-top: 36px;
+        margin-top: 36px;
+      }
+    }
+
+
+@media (max-width: 767px) {
+.Industries_Data .Industries_Row div .Real {
+    margin-bottom: 25px;
+}
+
+.Industries_Data .Industries_Row div .Investment {
+    margin-bottom: 25px;
+}
+.Industries_Data .Industries_Row div .Technology {
+    margin-bottom: 25px;
+}
+.Ro_Mob{
+        width: 113%;
+}
+}
