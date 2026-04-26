@@ -1540,12 +1540,52 @@ footer {
     margin: 85px auto !important;
 }
 .Services_Data .Services_Title h2 {
-    font-size: 34px !important;
+    font-size: 28px !important;
 }
 
 .Services_Data .Services_Title {
-    margin: 25px auto !important;
+    margin: 10px auto !important;
 }
+.Services_Data .Studies_All_Group {
+        width: 100% !important;
+}
+.Articles_Data .Articles_Title {
+    margin: 20px auto !important;
+}
+.Hero_Data_Info .Hero_All_Click div {
+    width: 154px !important;
+    height: 45px !important;
+}
+.About_Us {
+    margin: 50px auto !important;
+}
+.About_Us .About_Data .About_Title {
+    margin-bottom: 0px !important;
+}
+
+.Choose_Us {
+    margin: 60px auto !important;
+    padding-top: 10px !important;
+}
+.Choose_Us .Choose_Data .Choose_Info p {
+    font-size: 25px !important;
+    letter-spacing: 1px !important;
+    word-spacing: 0px !important;
+}
+.Studies {
+    width: 100% !important;
+}
+.Studies .Studies_Data .Studies_All_Group {
+    width: 100% !important;
+}
+.Studies .Studies_Data .Studies_All_Group div {
+    width: 100% !important;
+}
+.Services {
+    margin-top: 30px !important;
+}
+
+
 }
 .Page_Title{
     width: 100%;
