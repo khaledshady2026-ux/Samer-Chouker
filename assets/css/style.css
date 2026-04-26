@@ -314,7 +314,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 3px;
-     
+     position: relative;
+     overflow: hidden;
 }
 .Studies .Studies_Data .Studies_All_Group div{
     padding-bottom: 20px;
@@ -563,6 +564,7 @@ body {
 }
 .Articles_All_Group .Articles_All_Men{
     color: #ffff;
+
 }
 .Articles_All_Group .Articles_All_Men .Small_Artical{
     width: 320px;
@@ -572,6 +574,8 @@ body {
     margin-bottom: 35px;
     padding-bottom: 25px;
     border-bottom: #636363 solid 1px;
+    position: relative;
+    overflow: hidden;
 }
 .Articles_All_Men .Small_Artical .Artical_Pic{
     width: 112px;
@@ -1561,12 +1565,14 @@ footer {
     height: 45px !important;
 }
 .About_Us {
-    margin: 50px auto !important;
+    margin: 80px auto !important;
 }
 .About_Us .About_Data .About_Title {
     margin-bottom: 0px !important;
 }
-
+.Choose_Us .Choose_Data .Choose_Info a {
+    font-size: 17px !important;
+}
 .Choose_Us {
     margin: 60px auto !important;
     padding-top: 10px !important;
@@ -1623,6 +1629,8 @@ footer {
     height: 990px;
     background-color: black;
     padding-top: 80px;
+    position: relative;
+    overflow: hidden;
 }
 .Company_Overview .Company_Overview_Data{
     width: 90%;
@@ -1686,6 +1694,8 @@ footer {
     width: 100%;
     height: 470px;
     justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
 }
 .VISSION_Data .All_Vission .Mission{
     width: 574px;
@@ -1894,6 +1904,8 @@ footer {
 .Important_Industries{
     width: 100%;
     margin: 120px auto;
+     position: relative;
+    overflow: hidden;
 }
 .Important_Industries .Industries_Data{
     width: 80%;
@@ -2520,6 +2532,20 @@ footer {
 .info-value a:hover { color: #DEAD68 }
 a:hover {
     color: #DEAD68;
+}
+.Ro_Mob{
+    position: relative;
+    overflow: hidden;
+}
+.Articless {
+        position: relative;
+    overflow: hidden;
+
+}
+.Articles_All_Bage{
+            position: relative;
+    overflow: hidden;
+
 }
  
     /* ── Mobile ─────────────────────────────────── */
