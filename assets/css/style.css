@@ -125,9 +125,10 @@ body {
     align-items: center;     
 }
 .Hero_Data_Info .Hero_All_Click h3{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
     font-style: bold;
+    line-height: 40px;
 }
 .Hero_Data_Info .Hero_All_Click  a{
     text-decoration: none;
@@ -451,7 +452,7 @@ body {
 }
 .Services .Services_Data{
     width: 85%;
-    height: 700px;
+    height: auto !important;
     margin: 0 auto;
 }
 .Services_Data .Services_Title{
@@ -469,7 +470,7 @@ body {
 }
 .Services_Data .Studies_All_Group{
     width: 90%;
-    height: 500px;
+    height: auto !important;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -970,15 +971,16 @@ footer .Footer_Data{
 .Latest_News{
     height: auto !important;
 }
-.Hero_Data_Info .Hero_All_Click {
-    width: 95%;
-    padding-left: 25px;
-    margin-top: 104px;
-}
 .Hero_Data_Info .Hero_All_Click div {
-    width: 165px;
-    height: 45px;
-    gap: 10;
+    width: 155px;
+    height: 40px;
+    gap: 5px;
+}
+.Hero_Data_Info .Hero_All_Click{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .Hero_Data_Info .Hero_All_Click div img {
     width: 45px;
@@ -988,10 +990,10 @@ footer .Footer_Data{
     font-size: 10px;
 }
 .Hero_Data_Info .Hero_All_Click h3{
-    font-size: 12px;
+    font-size: 12px !important;
     height: 40px;
     align-content: center;
-    gap: px;
+    gap:5 px;
 }
 .About_Us {
     width: auto;
@@ -1008,7 +1010,7 @@ footer .Footer_Data{
     margin-top: 30px !important;
 }
 .Hero-section .Hero_Data_Info {
-    height: 630px !important;
+    height: 100% !important;
 }
 .About_Data .About_Sec {
    display: block;
@@ -1020,11 +1022,23 @@ footer .Footer_Data{
 .About_Data .About_Image img {
     width: 330px;
 }
+.All_Categories{
+    width: 100% !important;
+}
+.Articles_All_Bage{
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+.Markets_Article_Data h2{
+    font-size: 28px !important;
+}
 .About_Click {
     width: 90%;
+    height: auto !important;
     margin: 0 auto;
 }
 .About_Data .About_Sec p {
+    height: auto !important;
     width: auto;
     letter-spacing: 0px;
     word-spacing: 1px;
@@ -1109,7 +1123,7 @@ footer .Footer_Data{
 }
 .Studies .Studies_Data .Studies_All_Group {
     width: 90%;
-    height: 700px;
+    height: auto !important;
     display: block;
     margin: 50px auto;    
 }
@@ -1155,11 +1169,12 @@ footer .Footer_Data{
 .Services .Services_Data{
     width: 90%;
     margin: 0 auto;
-    height: 1210px;
+    height: auto !important;
 }
 .Services_Data .Studies_All_Group {
     display: block;
     width: 90%;
+    height: auto !important;
     margin: 0 auto;
 }
 .Services_Data .Studies_All_Group div{
@@ -1179,11 +1194,10 @@ footer .Footer_Data{
     font-size: 20px;
 }
 .Articles{
-    height: auto;
+    height: auto !important;
 }
 .Articles .Articles_Data {
     width: 85%;
-    height: auto;
 }
 .Article_Info {
     height: 466px;
@@ -1374,9 +1388,6 @@ footer {
     font-size: 29px !important;
         margin-bottom: 80px !important;
 }
-.About_Data .About_Sec p {
-    margin-bottom: 70px !important;
-}
 .VISSION_Data .All_Vission .Mission {
     width: auto !important;
     height: auto !important;
@@ -1493,9 +1504,7 @@ footer {
     letter-spacing: 5px !important;
     word-spacing: 2px !important;
 }
-.About_Us .About_Data {
-        height: 924px !important;
-}
+
 .CHALLENGES_Info.col-md-6.mb-lg-5.mb-md-4.mb-sm-4 {
     margin: 30px auto !important;
 }
@@ -1579,11 +1588,8 @@ footer {
 .Articles_Data .Articles_Title {
     margin: 20px auto !important;
 }
-.Hero_Data_Info .Hero_All_Click{
-    width: 92% !important;
-}
 .Hero_Data_Info .Hero_All_Click div {
-    width: 154px !important;
+    width: 200px !important;
     height: 45px !important;
 }
 .About_Us {
@@ -1611,9 +1617,6 @@ footer {
 .Studies {
     width: 100% !important;
 }
-.Studies .Studies_Data .Studies_All_Group {
-    width: 100% !important;
-}
 .Studies .Studies_Data .Studies_All_Group div {
     width: 100% !important;
 }
@@ -1622,7 +1625,7 @@ footer {
 }
 .Studies .Studies_Data .Studies_All_Group {
     width: 100% !important;
-    height: 2068px !important;
+    height: auto !important;
 }
 .Side_Logo{
     width: 180px;
@@ -1674,7 +1677,7 @@ footer {
         margin: 0 auto !important;
     }
 
-}
+
 .Page_Title{
     width: 100%;
     height: 450px;
@@ -2259,7 +2262,8 @@ footer {
     width: 100%;
 }
 .Latest_Markets_Data{
-    width: 80%;
+    width: 95% !important;
+    margin: 0 auto;
 }
 .Latest_Markets_Data .All_Latest_Markets p{
     color: #E0DEDE;
@@ -2284,7 +2288,7 @@ footer {
     padding-left: 15px;
 }
 .All_Categories .Categories_Data div{
-    width: 118px;
+    /* width: 118px; */
     height: 44px;
     border: #ffffff55 solid 2px;
     align-content: center;
