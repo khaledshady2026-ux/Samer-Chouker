@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: black;
 }
 
@@ -1641,6 +1641,18 @@ footer {
      background-color: #000000; 
      background-clip: none;
 }
+    .About_Data .About_Sec {
+
+        height: auto !important;
+    }
+        .Hero_Data_Info .Hero_Prg p {
+        margin: 0 auto !important;
+        width: 90% !important;
+    }
+    .Hero_Data_Info .Hero_Title h1 {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
 
 }
 .Page_Title{
