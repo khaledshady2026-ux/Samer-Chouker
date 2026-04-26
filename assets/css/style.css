@@ -117,8 +117,6 @@ body {
 
 
 .Hero_Data_Info .Hero_All_Click div{
-    width: 230px;
-    height: 48px;
     border: #bbbbbb47 solid .3px;
     border-radius: 15px;
     display: flex;
@@ -972,15 +970,14 @@ footer .Footer_Data{
     height: auto !important;
 }
 .Hero_Data_Info .Hero_All_Click div {
-    width: 155px;
+    padding: 0 15px 0 0;
     height: 40px;
-    gap: 5px;
 }
 .Hero_Data_Info .Hero_All_Click{
-    width: 90%;
+    width: 80% !important;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .Hero_Data_Info .Hero_All_Click div img {
     width: 45px;
@@ -990,10 +987,9 @@ footer .Footer_Data{
     font-size: 10px;
 }
 .Hero_Data_Info .Hero_All_Click h3{
-    font-size: 12px !important;
+    font-size: 9px !important;
     height: 40px;
     align-content: center;
-    gap:5 px;
 }
 .About_Us {
     width: auto;
@@ -1589,7 +1585,7 @@ footer {
     margin: 20px auto !important;
 }
 .Hero_Data_Info .Hero_All_Click div {
-    width: 200px !important;
+    padding: 0 20px 0 7px;
     height: 45px !important;
 }
 .About_Us {
