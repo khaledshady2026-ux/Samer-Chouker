@@ -1211,7 +1211,7 @@ footer .Footer_Data{
 }
 .Start_Your_Financial_Data .Start_Your_Financial_Info h2 {
         width: auto;
-        font-size: 27px;
+        font-size: 24px !important;
         font-weight: 700;
         line-height: 36px;
         word-spacing: -2px;
@@ -1321,7 +1321,7 @@ footer {
 }
 .Company_Overview {
     padding-top: 80px;
-    height: 2500px !important;
+    height: 2170px !important;
 }
 .Company_Overview_Data .Company_Info {
   display: block !important;
@@ -1329,14 +1329,11 @@ footer {
 .Company_Overview_Data .Company_Info p {
     width: auto !important;
     height: auto !important;
-    color: #ffff;
-    font-style: bold;
-    font-size: 22px;
-    align-content: center;
-    line-height: 29px;
-    word-spacing: 3px;
-    letter-spacing: 4px;
-    text-align: center;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    word-spacing: 3px !important;
+    letter-spacing: 4px !important;
+    text-align: center !important;
     padding-top: 30px !important;
 }
 .Company_Overview_Data .Com_pragg{
@@ -1541,6 +1538,13 @@ footer {
 }
 .Worth_Individuals {
     margin: 85px auto !important;
+}
+.Services_Data .Services_Title h2 {
+    font-size: 34px !important;
+}
+
+.Services_Data .Services_Title {
+    margin: 25px auto !important;
 }
 }
 .Page_Title{
