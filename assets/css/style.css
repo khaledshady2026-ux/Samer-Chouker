@@ -1310,9 +1310,9 @@ footer {
 /* #################################################################################################################################### */
 @media(max-width:768px) {
 .Company_Overview .Company_Overview_Data h2 {
-    font-size: 30px;
-    word-spacing: 0px;
-    letter-spacing: 1px;
+    font-size: 30px !important;
+    word-spacing: 0px !important;
+    letter-spacing: 1px !important;
 }
 .Company_Overview .Company_Overview_Data {
     width: 90%;
@@ -1321,13 +1321,13 @@ footer {
 }
 .Company_Overview {
     padding-top: 80px;
-    height: 2395px;
+    height: 2500px !important;
 }
 .Company_Overview_Data .Company_Info {
   display: block !important;
 }
 .Company_Overview_Data .Company_Info p {
-    width: auto;
+    width: auto !important;
     height: auto !important;
     color: #ffff;
     font-style: bold;
@@ -1337,51 +1337,212 @@ footer {
     word-spacing: 3px;
     letter-spacing: 4px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px !important;
+}
+.Company_Overview_Data .Com_pragg{
+    display: flex !important;
+    flex-direction: column-reverse;
+    border-bottom: #63636396 solid 1px;
 }
 .OUR_MISSION_VISSION {
     width: 100%;
-    height: 950px;
+    height: 1065px !important;
 }
 .OUR_MISSION_VISSION .VISSION_Data {
-    height: 100%;
+    width: auto;
+    height: 1000px !important;
 }
 .VISSION_Data .All_Vission {
-    display: block;
+    display: block !important;
     height: 760px;
 }
-.VISSION_Data .All_Vission .Mission {
-    width: auto;
-    height: auto;
+.VISSION_Data h2 {
+    font-size: 29px !important;
 }
-.VISSION_Data .All_Vission .Mission .Mission_Title {
-    align-items: end;
-    gap: 20px;
-    justify-content: center;
+.VISSION_Data .All_Vission .Mission {
+    width: auto !important;
+    height: auto !important;
 }
 .VISSION_Data .All_Vission .Mission p {
-    width: auto;
-    height: auto;
+    color: #ffff;
+    width: auto !important;
+    height: auto !important;
     font-size: 18px;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    line-height: 30px;
+    letter-spacing: 2px !important;
+    word-spacing: 6px !important;
+    line-height: 27px !important;
+    text-align: center !important;
+    padding-bottom: 20px !important;
+}
+.VISSION_Data .All_Vission .Vission {
+    width: auto !important;
+    height: auto !important;
+}
+.VISSION_Data .All_Vission .Vission p {
+    width: auto !important;
+    height: auto !important;
+    letter-spacing: 2px !important;
+    word-spacing: 6px !important;
+    line-height: 27px !important;
+    text-align: center !important;
+    padding-bottom: 20px !important;
+}
+.VISSION_Data .All_Vission .Mission .Mission_Title {
+    justify-content: center;
+}
+.VISSION_Data .All_Vission .Mission .Mission_Title {
+    align-items: end !important;
+}
+.VISSION_Data .All_Vission .Vission .Vission_Title {
+    align-items: end !important;
+}
+.Achievements {
+    display: block !important;
+    width: auto !important;
+    height: 900px !important;
     text-align: center;
+}
+.Achievements div h2 {
+    margin-bottom: 20px !important;
+}
+.Achievements div img {
+    margin-bottom: 10px !important;
+}
+.Achievements div h4 {
+    margin-bottom: 60px !important;
+}
+.Points_Of_Excellence .Points_Data h2 {
+    font-size: 26px !important;
 }
 /* # */
 .VISSION_Data .All_Vission .Vission {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
 }
-
+.Points_Of_Excellence .Points_Data .All_Points {
+    height: auto !important;
+    display: block !important;
+}
+.Points_Of_Excellence .Points_Data .All_Points div{
+    text-align: center !important;
+    margin-bottom: 65px !important;
+}
+.Points_Of_Excellence {
+    height: 630px !important;
+}
+.Points_Of_Excellence .Points_Data .All_Points p {
+    display: none !important;
+}
 .VISSION_Data .All_Vission .Vission .Vission_Title {
-    align-items: end;
+    align-items: end !important;
     gap: 20px;
-    justify-content: center;
+    justify-content: center !important;
+}
+.num_title h2 {
+    width: auto !important;
+    font-size: 28px !important;
+}
+.Important_Industries .Industries_Data {
+    width: 100% !important;
+}
+.Overview_Data .Overview_Info h2 {
+    font-size: 28px !important;
+    text-align: center !important;
+}
+.Overview_Data .Overview_Info p {
+    font-size: 18px !important;
+    letter-spacing: 5px !important;
+    word-spacing: -1px !important;
+    text-align: center !important;
+}
+.Overview {
+    margin: 70px auto !important;
+}
+.CHALLENGES_SOLUTIONS {
+    width: 100% !important;
+}
+.CHALLENGES_SOLUTIONS_Data .CHALLENGES_Info h2 {
+    font-size: 28px !important;
+    text-align: center !important;
+}
+.CHALLENGES_SOLUTIONS_Data .CHALLENGES_Info ul li {
+    font-size: 20px !important;
+    margin-bottom: 22px !important;
+    letter-spacing: 5px !important;
+    word-spacing: 2px !important;
+}
+.CHALLENGES_Info.col-md-6.mb-lg-5.mb-md-4.mb-sm-4 {
+    margin: 30px auto !important;
+}
+.Pic_Reverse {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+.CHALLENGES_SOLUTIONS_Data .Solutions_Info h2 {
+    font-size: 28px !important;
+    text-align: center !important;
+    margin-top: 30px !important;
 }
 
+.CHALLENGES_SOLUTIONS_Data .Solutions_Info ul li {
+    font-size: 20px !important;
+    margin-bottom: 22px !important;
+    letter-spacing: 5px !important;
+    word-spacing: 2px !important;
+}
+.Page_Title h1 {
+    font-size: 31px !important;
+    word-spacing: 3px !important;
+    letter-spacing: 3px !important;
+    word-spacing: 4px !important;
+    letter-spacing: 3px !important;
 }
 
+.Worth_Individuals_Data .Worth_Individuals_Info h2 {
+    font-size: 28px !important;
+    text-align: center !important;
+}
+
+.Worth_Individuals_Data .Worth_Individuals_Info p {
+    font-size: 18px  !important;
+    letter-spacing: 3px !important;
+    line-height: 32px !important;
+    word-spacing: 2px !important;
+    padding-left: 3px !important;
+    text-align: center !important;
+}
+.Worth_Individuals_Data .Worth_Individuals_Info {
+    margin-top: 50px !important;
+}
+.Pic_Reverrse{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+.Essay_Info{
+    margin-bottom: 50px !important;
+}
+.Essay_Image{
+    margin-bottom: 25px !important;
+}
+.Personal_Essay_Data .Essay_Image img {
+    width: 565px !important;
+    height: 290px !important;
+}
+.Personal_Essay_Data .Essay_Info p {
+    font-size: 18px !important;
+    letter-spacing: 4px !important;
+    word-spacing: 0px !important;
+    line-height: 35px !important;
+    padding-left: 0px !important;
+    text-align: left !important;
+}
+.Personal_Essay {
+    margin: 85px auto !important;
+}
+.Worth_Individuals {
+    margin: 85px auto !important;
+}
+}
 .Page_Title{
     width: 100%;
     height: 450px;
@@ -2340,3 +2501,6 @@ a:hover {
         width: 113%;
 }
 }
+/* ##################### سايد بار ########################### */
+
+
