@@ -1480,6 +1480,9 @@ footer {
     letter-spacing: 5px !important;
     word-spacing: 2px !important;
 }
+.About_Us .About_Data {
+        height: 924px !important;
+}
 .CHALLENGES_Info.col-md-6.mb-lg-5.mb-md-4.mb-sm-4 {
     margin: 30px auto !important;
 }
@@ -1601,7 +1604,43 @@ footer {
     width: 100% !important;
     height: 2068px !important;
 }
-
+.Side_Logo{
+    width: 180px;
+}
+.offcanvas-header {
+    width: 100%px !important;
+}
+.offcanvas-header .btn-close {
+    background-color: rgb(224, 170, 42);
+}
+.side_Bar{
+    width: 90%;
+    height: 300px;
+    background-color: #000000a7; 
+}
+.side_Bar ul {
+    padding: 30px;
+    height: auto;
+}
+.side_Bar ul a{
+    width: 120px;
+    height: 30px;
+}
+.side_Bar ul a li{
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: bold;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffffcd;
+    border-bottom: #ffffff solid 1px;
+}
+.offcanvas {
+     visibility: none;
+     background-color: #000000; 
+     background-clip: none;
+}
 
 }
 .Page_Title{
