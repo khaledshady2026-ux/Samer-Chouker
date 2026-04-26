@@ -967,6 +967,9 @@ footer .Footer_Data{
     line-height: 25px;
     padding-left: 20px;
 }
+.Latest_News{
+    height: auto !important;
+}
 .Hero_Data_Info .Hero_All_Click {
     width: 95%;
     padding-left: 25px;
@@ -992,10 +995,11 @@ footer .Footer_Data{
 }
 .About_Us {
     width: auto;
+    height: auto !important;
     padding-bottom: 0px;
 }
 .About_Us .About_Data {
-     height: 880px;
+     height: auto !important;
 }
 .About_Us .About_Data .About_Title h2 {
     font-size: 28px;
@@ -1067,6 +1071,9 @@ footer .Footer_Data{
     border-radius:4px;
     align-content: center;
 }
+.Latest_News_Data {
+    height: auto !important;
+}
 .Choose_Us .Choose_Data .Choose_Info p{
     padding-left:10px;
     width: auto;
@@ -1119,7 +1126,9 @@ footer .Footer_Data{
 .Studies_All_Group .Case3{
     margin-bottom: 30px;
 }
-
+.Services_Sec{
+    height: auto !important;
+}
 
 .Studies_All_Group .Case1 h2 {
     color: #ffff;
@@ -1351,11 +1360,11 @@ footer {
 }
 .OUR_MISSION_VISSION {
     width: 100%;
-    height: 1065px !important;
+    height: auto !important;
 }
 .OUR_MISSION_VISSION .VISSION_Data {
     width: auto;
-    height: 1000px !important;
+    height: 100% !important;
 }
 .VISSION_Data .All_Vission {
     display: block !important;
@@ -1408,7 +1417,7 @@ footer {
 .Achievements {
     display: block !important;
     width: auto !important;
-    height: 900px !important;
+    height: auto !important;
     text-align: center;
 }
 .Achievements div h2 {
@@ -1420,8 +1429,14 @@ footer {
 .Achievements div h4 {
     margin-bottom: 60px !important;
 }
+.Points_Of_Excellence{
+    height: auto !important;
+}
 .Points_Of_Excellence .Points_Data h2 {
     font-size: 26px !important;
+}
+.Points_Data {
+    height: auto !important;
 }
 /* # */
 .VISSION_Data .All_Vission .Vission {
@@ -1436,8 +1451,6 @@ footer {
     text-align: center !important;
     margin-bottom: 65px !important;
 }
-.Points_Of_Excellence {
-    height: 630px !important;
 }
 .Points_Of_Excellence .Points_Data .All_Points p {
     display: none !important;
@@ -1566,6 +1579,9 @@ footer {
 .Articles_Data .Articles_Title {
     margin: 20px auto !important;
 }
+.Hero_Data_Info .Hero_All_Click{
+    width: 92% !important;
+}
 .Hero_Data_Info .Hero_All_Click div {
     width: 154px !important;
     height: 45px !important;
@@ -1582,6 +1598,10 @@ footer {
 .Choose_Us {
     margin: 60px auto !important;
     padding-top: 10px !important;
+    height: auto !important;
+}
+.Choose_Us .Choose_Data{
+    height: auto !important;
 }
 .Choose_Us .Choose_Data .Choose_Info p {
     font-size: 25px !important;
@@ -2195,6 +2215,7 @@ footer {
 @media (min-width:900px){
     .Articles_All_Bage {
         max-height: 1200px;
+    
     }
 }
 .Markets_Article{
@@ -2603,6 +2624,7 @@ a:hover {
 .Articles_All_Bage{
             position: relative;
     overflow: hidden;
+    height: auto !important;
 
 }
  
