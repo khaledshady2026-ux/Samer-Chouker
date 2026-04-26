@@ -1025,15 +1025,15 @@ footer .Footer_Data{
     letter-spacing: 0px;
     word-spacing: 1px;
     line-height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
     text-align: center;
 }
 .About_Data .About_Sec .About_Click .About_Click_Up {
-    width: 200px;
+    width: 165px !important;
     margin: 0 auto;
 }
 .About_Data .About_Sec .About_Click .About_Click_Up div{
-    width: 200px;
+    width: 165px !important;
 }
 .About_Data .About_Sec .About_Click .About_Click_Up h3{
     font-size: 15px;
