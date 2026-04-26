@@ -1363,6 +1363,10 @@ footer {
 }
 .VISSION_Data h2 {
     font-size: 29px !important;
+        margin-bottom: 80px !important;
+}
+.About_Data .About_Sec p {
+    margin-bottom: 70px !important;
 }
 .VISSION_Data .All_Vission .Mission {
     width: auto !important;
@@ -1507,7 +1511,6 @@ footer {
     font-size: 28px !important;
     text-align: center !important;
 }
-
 .Worth_Individuals_Data .Worth_Individuals_Info p {
     font-size: 18px  !important;
     letter-spacing: 3px !important;
@@ -1593,6 +1596,10 @@ footer {
 }
 .Services {
     margin-top: 30px !important;
+}
+.Studies .Studies_Data .Studies_All_Group {
+    width: 100% !important;
+    height: 2068px !important;
 }
 
 
