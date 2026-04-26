@@ -997,6 +997,10 @@ footer .Footer_Data{
     font-size: 28px;
     font-weight: 700;
     font-style: bold;
+    margin-top: 30px !important;
+}
+.Hero-section .Hero_Data_Info {
+    height: 630px !important;
 }
 .About_Data .About_Sec {
    display: block;
